@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<issues>
+	<issue>
+		<id>2</id>
+		<name>Cisco logo screen</name>
+		<desciprtion>The display only shows cisco logo.</desciprtion>
+		<steps>
+			<step>
+				<id>1</id>
+				<name>Check power icon</name>
+				<content>
+					<![CDATA[
+					<ol>
+						<li>
+							Please check the power icon on led panel.
+
+							<p><img src="pics for step_2_1/step_2_1.png" width="300" height="100">
+							</p>
+						</li>
+					</ol>
+					]]>
+				</content>
+				<results>
+					<result>
+						<name>The power icon is blinking.</name>
+						<next-step>3</next-step>
+					</result>
+					<result>
+						<name>The power icon stays lit on.</name>
+						<next-step>4</next-step>
+					</result>
+				</results>
+			</step>
+			<step>
+				<id>2</id>
+				<name>Reimage</name>
+				<content>
+					<![CDATA[
+					<ol>
+						<li>
+							<span>CE300 is under file system reimaging or updating process. </span>
+							<p>
+								 Please wait for about 20 minutes for the installation to finish.
+							</p>
+						</li>
+					</ol>
+					]]>
+				</content>
+				<results>
+					<result>
+						<name>The problem has been solved.</name>
+						<next-step>3</next-step>
+					</result>
+					<result>
+						<name>The problem persists.</name>
+						<next-step>5</next-step>
+					</result>
+				</results>
+			</step>
+		</steps>
+	</issue>
+	<issue>
+		<name></name>
+		<desciprtion></desciprtion>
+	</issue>
+</issues>

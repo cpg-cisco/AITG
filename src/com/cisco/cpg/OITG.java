@@ -48,16 +48,15 @@ public class OITG {
 	
 	//TODO
 	//This is used to parse the XML and store the result in issues.
-	public ArrayList<Issue> parseXML() {
+	public void parseXML() {
 		if (this.DEBUG) {
 			System.out.println("parseXML() is called to parse the XML file...");
 		}
 		//TODO
-		
+		// Populate ArrayList issues here
 		if (this.DEBUG) {
 			System.out.println("parseXML() is called to fullfile issues arrayList...");
 		}
-		return issues;
 	}
 	
 	//TODO
